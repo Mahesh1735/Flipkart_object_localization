@@ -1,6 +1,6 @@
 # Flipkart_object_localization
 
-## Our Solution for the [Flipkart Grid Engineering Campus Challenge](https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928)
+## [Our Solution for the Flipkart Grid Engineering Campus Challenge](https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928)
    
   - Team name
   
@@ -36,7 +36,8 @@
 ## Ideas Which Boosted Our Accuracy and helped in training
    
    - **Adding 4th Channel:**
-       Since this is an object localization problem where we are trying to predict just the edges of the object so we thought it might be useful to add an extra channels in our image which just contain the edges of the image. We found cv2.canny to be useful for this purpose. Due to lack of time we just trained our image by resizing it to 64x64 for 2nd level and in just 3 layered network we got a score of around 0.62. But after adding extra channel our score boosted by 0.07 to 0.696396. This motivated us to use the 4th channel even in the 3rd level where we used 224x224x4.
+   
+       Since this is an object localization problem where we are trying to predict just the edges of the object so we thought it might be useful to add an extra channels in our image which just contain the edges of the image. We found [cv2.canny](https://docs.opencv.org/3.1.0/da/d22/tutorial_py_canny.html) to be useful for this purpose. Due to lack of time we just trained our image by resizing it to 64x64 for 2nd level and in just 3 layered network we got a score of around 0.62. But after adding extra channel our score boosted by 0.07 to 0.696396. This motivated us to use the 4th channel even in the 3rd level where we used 224x224x4 image.
      
    - **Reducing the number of channels in the hidden layers of resnet50:**
         
