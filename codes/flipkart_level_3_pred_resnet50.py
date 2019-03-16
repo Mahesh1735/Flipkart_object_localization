@@ -1,7 +1,6 @@
 
 # coding: utf-8
 
-# In[ ]:
 
 import pandas as pd
 import cv2
@@ -29,12 +28,12 @@ K.set_image_data_format('channels_last')
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import imshow
 
-# %matplotlib inline
+%matplotlib inline
 
-
+# some part of the code is taken from our coursera course assignment you can check my actual implementation here(https://github.com/mukul54/Coursera-Deep-Learning/blob/master/Convolutional%20Neural%20Networks/week2/Residual%2BNetworks%2B-%2Bv2.ipynb)
 def identity_block(X, f, filters, stage, block):
     """
-    Implementation of the identity block as defined in Figure 3
+    Implementation of the identity block
     
     Arguments:
     X -- input tensor of shape (m, n_H_prev, n_W_prev, n_C_prev)
@@ -84,7 +83,7 @@ def identity_block(X, f, filters, stage, block):
 
 def convolutional_block(X, f, filters, stage, block, s = 2):
     """
-    Implementation of the convolutional block as defined in Figure 4
+    Implementation of the convolutional block
     
     Arguments:
     X -- input tensor of shape (m, n_H_prev, n_W_prev, n_C_prev)
