@@ -1,5 +1,6 @@
 # Flipkart_object_localization
 
+
 ## [Our Solution for the Flipkart Grid Engineering Campus Challenge](https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928)
    
   - Team name
@@ -25,6 +26,7 @@
      - Modified ResNet50(for level 3 we tried resnext101 as well but could not train due to GPU limitations)
      
      - A simple CNN model(for level 2)
+
      
 ## Problem
    We are given 24k images(around 15gb) of dimension 480x640 and the 4 co-ordinates(of the upper left corner and the lower right corner) of the bounding box as the label.We have to use supervised machine learning algorithm to predict the bounding box of the test images.
@@ -47,5 +49,3 @@ Here is the architecture of our model.
         
    ![our model architecture](https://github.com/mukul54/Flipkart_object_localization/blob/master/images/model.png)
         
-     
- 
