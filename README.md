@@ -11,7 +11,7 @@
   
       - [Mukul Ranjan](https://github.com/mukul54)
   
-      - [Rangithala Mahesh](https://github.com/Mahesh1735)
+      - [Reginthala Mahesh](https://github.com/Mahesh1735)
                    
       - [Jayant Praksh Singh](https://github.com/jayantp07)
   
