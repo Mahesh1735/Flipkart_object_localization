@@ -9,9 +9,9 @@
   
   - Members
   
-      - [Mukul Ranjan](https://github.com/mukul54)
-  
       - [Reginthala Mahesh](https://github.com/Mahesh1735)
+      
+      - [Mukul Ranjan](https://github.com/mukul54)
                    
       - [Jayant Praksh Singh](https://github.com/jayantp07)
   
